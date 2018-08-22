@@ -1,4 +1,4 @@
-autocmd BufNewFile,BufRead Snakefile set syntax=snakemake
-autocmd BufNewFile,BufRead *.rules set syntax=snakemake
-autocmd BufNewFile,BufRead *.snakefile set syntax=snakemake
-autocmd BufNewFile,BufRead *.snake set syntax=snakemake
+autocmd BufNewFile,BufRead Snakefile setfiletype snakemake
+autocmd BufNewFile,BufRead *.rules setfiletype snakemake
+autocmd BufNewFile,BufRead *.snakefile setfiletype snakemake
+autocmd BufNewFile,BufRead *.snake setfiletype snakemake
